@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: right; 
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* --- قسم التحقق --- */
+.check-day-section {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#name-input {
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    width: 60%;
+    margin-left: 10px;
+    font-size: 16px;
+    direction: rtl;
+}
+
+#check-button {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#check-button:hover {
+    background-color: #218838;
+}
+
+#result-message {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* --- جدول الأسبوع --- */
+#schedule-list {
+    list-style: none;
+    padding: 0;
+}
+
+#schedule-list li {
+    background: #f1f8ff;
+    margin-bottom: 8px;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 5px solid #007bff; 
+    font-size: 16px;
+}
+
+.today {
+    background-color: #fff3cd !important;
+    border-right: 5px solid #ffc107;
+    font-weight: bold;
+}
